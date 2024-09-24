@@ -7,8 +7,8 @@ const styles = StyleSheet.create({
     },
 
     box1: {
-        backgroundColor: '#1E90FF',
-        height: 300,
+        backgroundColor: 'rgba(30,144,250,0.5)',
+        height: 200,
         borderWidth: 1,
         borderColor: '#A9B6C6',
         borderBottomLeftRadius: 40,
@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
 
     boxTextInput: {
         alignSelf: 'center',
-        marginVertical: 50,
+        marginVertical: 80,
         width: 320,
         height: 350
     },
@@ -75,12 +75,12 @@ const styles = StyleSheet.create({
     },
 
     btnSignIn: {
-        marginTop: 30,
+        marginTop: 40,
         backgroundColor: '#1E90FF',
         width: 300,
         height: 40,
         borderRadius: 10,
-        marginBottom: 12
+        marginBottom: 20
     },
 
     labelLogin: {
