@@ -34,6 +34,7 @@ export default function Login() {
                         autoFocus
                         keyboardType='email-address'
                         placeholderTextColor='#A9B6C6'
+                        
 
 
                     />
