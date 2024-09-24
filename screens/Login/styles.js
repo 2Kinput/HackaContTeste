@@ -8,17 +8,13 @@ const styles = StyleSheet.create({
 
     box1: {
         backgroundColor: '#1E90FF',
-        height: 400,
+        height: 300,
         borderWidth: 1,
+        borderColor: '#A9B6C6',
         borderBottomLeftRadius: 40,
         borderBottomEndRadius: 40,
-        marginBottom: 20
-    },
-
-    btnVoltar: {
-        flexDirection: 'row',
-        marginHorizontal: 30,
-        marginVertical: 60,
+        marginBottom: 20,
+        justifyContent: 'center'
     },
 
     titulo: {
@@ -29,8 +25,8 @@ const styles = StyleSheet.create({
     },
 
     box2: {
-        backgroundColor: '#001935',
-        height: '53%',
+        backgroundColor: '#001A35',
+        height: '100%',
         borderWidth: 1,
         borderTopLeftRadius: 40,
         borderTopRightRadius: 40
@@ -61,7 +57,54 @@ const styles = StyleSheet.create({
         height: 50,
         width: 300,
         borderRadius: 10,
-        paddingLeft: 10
+        paddingLeft: 10,
+    },
+
+    inputArea: {
+        flexDirection: 'row',
+        justifyContent: 'space-around',
+        marginLeft: 20
+
+    },
+
+    iconView: {
+        width: 40,
+        height: 48,
+        justifyContent: 'center',
+        marginRight: 35
+    },
+
+    btnSignIn: {
+        marginTop: 30,
+        backgroundColor: '#1E90FF',
+        width: 300,
+        height: 40,
+        borderRadius: 10,
+        marginBottom: 12
+    },
+
+    labelLogin: {
+        textAlign: 'center',
+        fontSize: 16,
+        color: '#fff',
+        fontWeight: 'bold',
+        padding: 8
+    },
+
+    labelSignUp: {
+        textAlign: 'center',
+        fontSize: 16,
+        color: '#fff',
+        fontWeight: 'bold',
+        padding: 8
+    },
+
+    btnSignUp:{
+        backgroundColor: '#1E90FF',
+        width: 300,
+        height: 40,
+        borderRadius: 10,
+        marginBottom: 10
     }
 })
 
