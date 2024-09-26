@@ -100,7 +100,6 @@ const styles = StyleSheet.create({
     },
 
     btnSignUp:{
-        backgroundColor: '#1E90FF',
         width: 300,
         height: 40,
         borderRadius: 10,

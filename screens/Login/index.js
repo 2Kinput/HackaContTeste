@@ -63,7 +63,7 @@ export default function Login() {
                     </TouchableOpacity>
 
                     <TouchableOpacity style={styles.btnSignUp}>
-                        <Text style={styles.labelSignUp}>Sign Up</Text>
+                        <Text style={styles.labelSignUp}>Sign Up ?</Text>
                     </TouchableOpacity>
 
                 </View>
